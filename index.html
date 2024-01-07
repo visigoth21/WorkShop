@@ -4,10 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Components</title>
+    <style>
+      div {
+        border: 2px solid orange;
+      }
+    </style>
     <Script src="./tooltip.js"></Script>
+    <script src="./confirm-link.js"></script>
 </head>
 <body>
     <p></p><ssn-tooltip text="Come and get it">Web Components</ssn-tooltip> are fun!</p>    
-    <ssn-tooltip>Here we go!</ssn-tooltip>
+    <ssn-tooltip></ssn-tooltip>
+    <p><a is="ssn-confirm-link" href="https://www.furryfeet.com" target="_blank">Furryfeet</a></p>
 </body>
 </html>
